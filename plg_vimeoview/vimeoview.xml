@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" version="1.6.0" client="site" method="upgrade">
+  <name>PLG_CONTENT_VIMEOVIEW</name>
+  <author>Artem N. Alexeyev</author>
+  <creationDate>May 2014</creationDate>
+  <authorEmail>pogankin@inze.net</authorEmail>
+  <authorUrl>inze.net</authorUrl>
+  <copyright>Copyright (C) 2013 Artem N. Alexeyev</copyright>
+  <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+  <version>0.17</version>
+  <description>PLG_CONTENT_VIMEOVIEW_DESC</description>
+  <files>
+      <filename plugin="vimeoview">vimeoview.php</filename>
+      <filename>index.html</filename>
+  </files>
+  <languages>
+    <language tag="en-GB">en-GB/en-GB.plg_content_vimeoview.ini</language>
+    <language tag="en-GB">en-GB/en-GB.plg_content_vimeoview.sys.ini</language>
+    <language tag="ru-RU">ru-RU/ru-RU.plg_content_vimeoview.ini</language>
+    <language tag="ru-RU">ru-RU/ru-RU.plg_content_vimeoview.sys.ini</language>
+  </languages>
+    <config>
+      <fields name="params">
+        <fieldset name="basic">
+            <field name="code" type="textarea" default="plg_content_vimeoview" label="Vimeo code" rows="5" cols="30" description="Vimeo frame code" />
+        </fieldset>
+      </fields>
+    </config>
+</extension>
